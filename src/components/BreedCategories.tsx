@@ -19,22 +19,6 @@ const BreedCategories = () => {
         "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300&h=200&fit=crop",
       gradient: "from-purple-400 to-purple-600",
     },
-    {
-      name: "Птицы",
-      count: "300+ животных",
-      icon: "Bird",
-      image:
-        "https://images.unsplash.com/photo-1552728089-57bdde30beb3?w=300&h=200&fit=crop",
-      gradient: "from-green-400 to-green-600",
-    },
-    {
-      name: "Грызуны",
-      count: "150+ животных",
-      icon: "Rabbit",
-      image:
-        "https://images.unsplash.com/photo-1425082661705-1834bfd09dca?w=300&h=200&fit=crop",
-      gradient: "from-pink-400 to-pink-600",
-    },
   ];
 
   return (
@@ -49,7 +33,7 @@ const BreedCategories = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {breeds.map((breed, index) => (
             <Card
               key={index}
