@@ -7,6 +7,13 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center px-4 py-20">
       <div className="absolute inset-0 bg-gradient-to-br from-purple-100 via-pink-50 to-purple-50 opacity-70"></div>
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{
+          backgroundImage:
+            "url(https://cdn.poehali.dev/files/e81682ee-2670-438c-9d2e-c98c8ad1a777.jpg)",
+        }}
+      ></div>
 
       <div className="relative z-10 max-w-6xl mx-auto text-center">
         <h1 className="text-6xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent mb-6 font-montserrat">
