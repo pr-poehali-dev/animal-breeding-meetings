@@ -50,6 +50,15 @@ const Cats = () => {
           </p>
         </div>
 
+        <div className="text-center mb-8">
+          <Link to="/cats/create">
+            <Button className="bg-purple-600 hover:bg-purple-700 text-lg px-8 py-3 h-auto">
+              <Icon name="Plus" size={20} className="mr-2" />
+              Создать анкету кошки
+            </Button>
+          </Link>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {catBreeds.map((breed, index) => (
             <Card

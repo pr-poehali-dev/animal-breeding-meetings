@@ -51,6 +51,15 @@ const Dogs = () => {
           </p>
         </div>
 
+        <div className="text-center mb-8">
+          <Link to="/dogs/create">
+            <Button className="bg-blue-600 hover:bg-blue-700 text-lg px-8 py-3 h-auto">
+              <Icon name="Plus" size={20} className="mr-2" />
+              Создать анкету собаки
+            </Button>
+          </Link>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {dogBreeds.map((breed, index) => (
             <Card
