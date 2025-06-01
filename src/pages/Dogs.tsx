@@ -17,7 +17,7 @@ const Dogs = () => {
       name: "Немецкая овчарка",
       description: "Верные и умные собаки, отличные компаньоны и защитники",
       image:
-        "https://images.unsplash.com/photo-1551717743-49959800b1f6?w=400&h=300&fit=crop",
+        "https://cdn.poehali.dev/files/643a6ad0-bb94-4874-a993-897a17f09d51.jpg",
       traits: ["Верный", "Умный", "Защитник"],
     },
     {
