@@ -10,7 +10,7 @@ const Dogs = () => {
       description:
         "Дружелюбные и энергичные собаки, отлично подходят для семей",
       image:
-        "https://images.unsplash.com/photo-1552053831-71594a27632d?w=400&h=300&fit=crop",
+        "https://cdn.poehali.dev/files/84f75fff-0962-40df-ab21-54f9817bb0eb.jpg",
       traits: ["Дружелюбный", "Активный", "Умный"],
     },
     {
